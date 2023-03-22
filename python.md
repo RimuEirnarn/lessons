@@ -65,6 +65,8 @@ Kode diatas hanya mengeluarkan output "Hello, World" dengan memanggil fungsi pri
 
 **Catatan**: Interpreter adalah perintah Python yang sebelumnya kita gunakan, di Windows CMD dengan perintah `py` dan `python` di Linux.
 
+<br>
+
 ### Fundamental 2 - Variabel
 
 Variabel adalah suatu data dengan simbol (huruf, angka, atau _) yang memiliki sebuah data lain seperti Angka, String/Tulisan, Bilangan asli, imajiner, dll.
@@ -124,6 +126,8 @@ nama = "Agus"
 nama_depan = nama
 ```
 
+<br>
+
 ### Fundamental 3 - Tipe data variabel
 
 Kita tadi membuat variabel-variabel dengan nilai dan bentuk yang berbeda, di bagian ini aku akan menjelaskan variabel tadi seperti `nama` dan `umur`. Serta tipe data lain yang mungkin akan berguna.
@@ -148,6 +152,8 @@ Variabel berikutnya, `umur` kita buat dengan nilai 50. Ini adalah contoh tipe da
 
 Variabel berikutnya `nilai` kita buat dengan nilai 99.52. Ini adalah contoh tipe data `float` atau bilangan asli.
 
+<br>
+
 ### Fundamental 3.5 - Penamaan variabel yang benar.
 
 Mungkin belum kujelaskan. Mari kita buat ini lebih detail lagi. Kita hanya boleh membuat variabel dengan aturan tertentu. Yaitu, hanya boleh dengan huruf, angka, dan _.
@@ -160,6 +166,8 @@ nama nya agus = "Agus"
 ```
 
 Di baris pertama, `00nama` tidak sah karena angka mendahului huruf. Tetapi, variabel seperti `_00nama` tetap diperbolehkan.
+
+<br>
 
 ### Fundamental 4 - Banyak data.
 
@@ -203,6 +211,8 @@ print(nilai) # 99.51
 
 Kita secara konsisten mendapatkan nilai-nilai dari variabel agus dengan posisi (index) yang kita gunakan. Ingat, pertama adalah 0.
 
+<br>
+
 ### Fundamental 4.1 - Tuple, temennya `list`
 
 Tuple, beda dari `list` dimana kita bisa mengubahnya. Data-data di tuple tidak dapat dirubah setelah dibuat.
@@ -223,6 +233,8 @@ print(nama, umur, nilai) # Agus 50 99.51
 ```
 
 Nah, ini adalah perjalanan singkat kita dengan yang namanya `list` dan `tuple`. Kita akan bertemu lagi setelah kita membahas `fungsi`.
+
+<br>
 
 ### Fundamental 4.2 - Dict/Dictionary. Paling beda dengan list.
 
@@ -273,6 +285,8 @@ Layaknya juga dengan umur.
 ```python
 print(agus['nama'], agus['umur'], agus['nilai']) # Agus 50 99.51
 ```
+
+<br>
 
 ### Fundamental 5 - Fungsi
 
@@ -364,6 +378,8 @@ tambah(1, y=50)
 
 Nah, karena pendefinisian tadi adalah `(x, y)`. Dari contoh tersebut, kita bisa menyimpulkan bahwa `(x=1, y=50)`
 
+<br>
+
 ### Fundamental 5.1 - Banyak argumen/permintaan variabel.
 
 Nah, karena kita telah membuat variabel yang menerima 2 argumen. Kita akan lanjut dengan sihir lain, ini disebut dengan metode, `*`, dan `**`.
@@ -434,6 +450,8 @@ Ini akan menghasilkan/mengembalikan data tuple dan dictionary.
 
 **Catatan**: Apapun yang ditaruh ke `*`, dan `**` bersifat opsional. Artinya mereka boleh tidak ada. Kita akan membahas perilaku variabel tidak dideklarasikan langsung di bagian berikutnya.
 
+<br>
+
 ### Fundamental 5.2 - Argumen Opsional
 
 Argumen Opsional adalah argumen yang boleh tidak ada karena kita sudah membuat pengganti ketika tidak ada.
@@ -453,6 +471,8 @@ print(tambah(5, 5)) # 10
 ```
 
 Kita bisa memasukkan data ke variabel `y` seperti contoh diatas.
+
+<br>
 
 ### Fundamental 5.3 - Mendapatkan data kosong melalui **kwargs atau rusak.
 
@@ -495,13 +515,15 @@ Karena nama sekarang sudah ada. Metode `.get` hanya akan mengeluarkan data denga
 
 Sayangnya, tidak ada cara untuk mendapatkan data tertentu melalui `*`.
 
+---
+
 ## Penutup
 
 Sekian, pembelajaran singkat dari saya. Bila ada kesalahan saya memohon maaf sebesar-besarnya. Semoga kalian dapat memahami materi ini.
 
 ### Pengarang/Penulis
 
-Dokumen ini diketik oleh [RimuEirnarn](https://github.com/RimuEirnarn). Kode sumber dari gambar, contoh, dll disimpan di [Repository](https://github.com/RimuEirnarn/lesson)
+Dokumen ini diketik oleh [RimuEirnarn](https://github.com/RimuEirnarn). Kode sumber dari gambar, contoh, dll disimpan di [Repository](https://github.com/RimuEirnarn/lessons)
 
 ### Hak Cipta
 
