@@ -24,7 +24,7 @@ Apabila tidak terdapat cara, ikuti cara dibawah ini:
 ./configure
 make
 make test
-sudo make install
+sudo make altinstall
 ```
 
 ### Menjalankan Python
